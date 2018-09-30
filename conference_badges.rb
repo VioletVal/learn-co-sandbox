@@ -12,4 +12,4 @@ def batch_badge_creator(names)
   return messages
 end
 
-puts badge_maker("Valerie")
+array = 
