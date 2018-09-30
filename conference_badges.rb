@@ -23,7 +23,8 @@ end
 
 def printer(names)
   puts batch_badge_creator(names)
-  puts 
+  puts assign_rooms(names)
+end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-puts assign_rooms(names)
+printer(names)
