@@ -22,5 +22,4 @@ def assign_rooms(names)
 end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-puts batch_badge_creator(names)
-puts names
+puts assign_rooms(names)
