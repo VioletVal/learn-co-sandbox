@@ -16,7 +16,7 @@ def assign_rooms(names)
   messages = []
   index = 0
   names.each_with_index do |name, index|
-    messages[index] = 
+    messages[index] = "Hello, #{name}! You'll be assigned to room #{index + 1}"
 end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
