@@ -12,4 +12,4 @@ def batch_badge_creator(names)
   return messages
 end
 
-array = 
+array = [Edsger, Ada, Charles, Alan, Grace, Linus, and Matz]
