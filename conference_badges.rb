@@ -12,6 +12,8 @@ def batch_badge_creator(names)
   return messages
 end
 
-array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-puts batch_badge_creator(array)
-puts array
+def assign_rooms(names)
+
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+puts batch_badge_creator(names)
+puts names
