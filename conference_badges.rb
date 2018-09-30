@@ -21,5 +21,8 @@ def assign_rooms(names)
   return messages
 end
 
+def printer(names)
+  puts 
+
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts assign_rooms(names)
