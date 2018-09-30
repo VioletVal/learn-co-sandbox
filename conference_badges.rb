@@ -8,6 +8,7 @@ def batch_badge_creator(names)
   names.each do |name|
     messages[index] = badge_maker(name)
     index += 1
+  end
   return messages
 end
 
