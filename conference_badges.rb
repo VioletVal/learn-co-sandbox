@@ -6,4 +6,4 @@ def batch_badge_creator(names)
   messages = []
   index = 0
   names.each do |name|
-    messages[index] = 
+    messages[index] = badge_maker(name)
