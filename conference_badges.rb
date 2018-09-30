@@ -1,5 +1,5 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
@@ -7,3 +7,8 @@ def batch_badge_creator(names)
   index = 0
   names.each do |name|
     messages[index] = badge_maker(name)
+    index += 1
+  return messages
+end
+
+puts badge_maker("Valerie")
