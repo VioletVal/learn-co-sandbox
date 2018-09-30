@@ -14,3 +14,4 @@ end
 
 array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts batch_badge_creator(array)
+puts array
